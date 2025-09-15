@@ -1,10 +1,10 @@
-# **🏁** Sprint 0
+# **🏁** Sprint 1
 
 
 ## Descrição
 
 
- Esta Sprint ainda está em edição, devemos definir pesquisas para cada um fazer e talvez duplas para atuação conjunta e confirmar a reunião.  
+Foram definidas pesquisas para cada um fazer e duplas para atuação conjunta e confirmar a reunião.  
 
 
 
@@ -17,8 +17,8 @@ As reuniões foram determiadas para serem feitas em horários adaptados a todos,
 **Data:** 16/09/2025  
 **Local:** Discord 
 **Inicio:** 19:30  
-**Encerramento:** a determinar
-(sujeito a alteração
+**Encerramento:** 20:00
+
 
 ## Objetivos
 
@@ -26,3 +26,6 @@ As reuniões foram determiadas para serem feitas em horários adaptados a todos,
 - Decidir de que forma o software será feito
 - Iniciar redação dos requisitos. 
 - Estudar: Git, GitHub, GitFlow, Metodologias Ágeis, Arquitetura de Software, DevOps.
+
+  ## Pontos de melhora:
+  - Maior atenção as issues e no README
