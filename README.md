@@ -58,6 +58,9 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 | Arthur Souto Santos | [arthursouto09](*link do git) |
 ---
 
+## Links 
+
+[Figma](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---%C3%89-FAKE?node-id=0-1&t=DRm0SywJFQwlmW23-1)
 ## Como contribuir (resumo)
 1. Faça um fork do repositório.  
 2. Crie uma branch `feature/nome-da-feature`.  
