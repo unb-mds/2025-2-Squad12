@@ -7,7 +7,7 @@
 
 # 📝 Resumo da reunião semanal (18/09)
 
-** - Na reunião, com a presença de Lucas, Leonardo e Vitor, ficou definido que:**
+ **- Na reunião, com a presença de Lucas, Leonardo e Vitor, ficou definido que:**
 - Vitor assumirá o back-end da nossa GitPage, dado o fato de já ter o código e ideias já desenvolvidas.
 - Lucas e Leonardo ficarão responsáveis pelo front-end, acompanhando o desenvolvimento do código feito pelo Vitor.
 
