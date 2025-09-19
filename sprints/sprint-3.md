@@ -3,9 +3,9 @@
 
 
 
-## 📅 Reuniões 
+# 📅 Reuniões 
 
-# 📝 Resumo da reunião semanal (18/09)
+## 📝 Resumo da reunião semanal (18/09)
 
  **- Na reunião, com a presença de Lucas, Leonardo e Vitor, ficou definido que:**
 - Vitor assumirá o back-end da nossa GitPage, dado o fato de já ter o código e ideias já desenvolvidas.
