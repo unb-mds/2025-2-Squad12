@@ -1,18 +1,23 @@
 # 🏁 Sprint 3
 
+## 📅 Reuniões  
 
+### 📝 Resumo da reunião semanal (18/09)  
 
+Na reunião realizada em **18/09**, com a participação de **Lucas**, **Leonardo** e **Vitor**, foram definidos os seguintes pontos:  
 
-# 📅 Reuniões 
+- **Responsabilidades da equipe**:  
+  - Vitor ficará responsável pelo **back-end** da GitPage, visto que já possui código e ideias previamente desenvolvidas.  
+  - Lucas e Leonardo serão responsáveis pelo **front-end**, acompanhando o desenvolvimento do código produzido por Vitor.  
 
-## 📝 Resumo da reunião semanal (18/09)
+- **Design e documentação**:  
+  - O **Figma** já foi criado, porém ainda necessita ser complementado com as informações relevantes do projeto.  
 
- **- Na reunião, com a presença de Lucas, Leonardo e Vitor, ficou definido que:**
-- Vitor assumirá o back-end da nossa GitPage, dado o fato de já ter o código e ideias já desenvolvidas.
-- Lucas e Leonardo ficarão responsáveis pelo front-end, acompanhando o desenvolvimento do código feito pelo Vitor.
+- **Planejamento da Release 1**:  
+  - Foi iniciado o planejamento geral da **Release 1**, estabelecendo a base das entregas futuras.  
 
-O Figma ainda precisa ser criado, mas fizemos um brainstorm inicial de ideias inicial pra começar a faze-lo
+- **Controle de commits**:  
+  - Foi definido que os **commits de código** serão realizados em uma **branch separada da main**, a fim de evitar conflitos.  
+  - Além disso, os posts de commits serão organizados e divididos por sprint para melhor rastreabilidade.  
 
-Também demos início ao planejamento geral da nossa Release 1.
-
-Após o final da reunião, também foi decidido dividir os posts de commits dentro das sprints.
+---
