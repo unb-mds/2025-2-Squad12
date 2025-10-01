@@ -1,0 +1,1 @@
+Esta seção contém diagramas UML que demonstram o código como eu projetei, não simboliza o seu funcionamento de fato quando terminado.
