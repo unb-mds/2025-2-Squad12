@@ -13,7 +13,7 @@ Os dois servem para buscar coisas específicas no .xml ou .html por meio das tag
 ```python
 response.xpath('//h1/text()').get()
 response.css('h1::text').get()
-
+```
 ## 📝 Items
 É onde são salvos os conteúdos retirados. Você cria as variáveis para cada coisa que quer guardar. Quando for fazer o scrap, a spider vai criar uma instância da classe de item que você salvou e vai usar ela pra salvar os dados.
 
