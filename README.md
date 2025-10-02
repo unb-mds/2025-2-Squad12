@@ -52,7 +52,7 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 | Lucas Emanuel Costa dos Santos  | [TsukiRaiito](https://github.com/TsukiRaiito) |
 | João Paulo da Silva Pereira  | [Jp-te](*link do git) |
 | Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao) |
-| Arthur Souto Santos | [arthursouto09](*link do git) |
+| Arthur Souto Santos | [arthursouto09](https://github.com/arthursouto09)) |
 ---
 
 ## Links 
