@@ -33,11 +33,11 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 
 (ir atualizando, apagando ou modificando com o passar do projeto!)
 
-- **Linguagens**: `Python `  
-- **Mineração / Scraping**: ``  
+- **Linguagens**: `Python, Scrapy `  
+- **Mineração / Scraping**: `Scrapy (Open Source)`  
 - **Processamento de texto / NLP**: ``  
-- **Banco de dados**: ``  
-- **Backend / API**: ``  
+- **Banco de dados**: `Banco de dados local em CSV`  
+- **Backend / API**: `Python`  
 - **Frontend**: `{{ex.: React, Vue}}`      
 - **Controle de versão & colaboração**: Git, GitHub (issues, PRs, templates)  
 - **Outros serviços**:
