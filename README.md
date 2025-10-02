@@ -9,12 +9,12 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 
 ### Campo rápido (resumo)
 - Público-alvo: `{{ex.: jornalistas, pesquisadores, usuários em geral}}`
-- Escopo inicial: `{{ex.: mineração, deduplicação, comparação de texto, score de veracidade}}`
+- Escopo inicial: `Garantir que a mineração de dados está sendo realizada da maneira correta...`
 
 ---
 
 ## Objetivos
-- Implementar pipelines de mineração que coletem notícias de pelo menos **mais 2 fontes de notícias** além do conjunto atual. `{{detalhar jornais alvo}}`  
+- Implementar pipelines de mineração que coletem notícias de pelo menos **mais 2 fontes de notícias** além do conjunto atual. `{{detalhar sites alvo}}`  
 - Normalizar e armazenar as notícias coletadas em um formato que permita comparação (metadados, texto limpo, data, autor, URL).  
 - Construir uma aplicação web para exploração das notícias e visualização de comparações entre fontes.  
 - Criar um sistema automático que gere um **score** ou **sinais** de potencial desinformação com justificativa (por exemplo: divergência de dados, ausência de fontes primárias, linguagem sensacionalista).  
@@ -33,17 +33,14 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 
 (ir atualizando, apagando ou modificando com o passar do projeto!)
 
-- **Linguagens**: `{{ex.: Python, JavaScript/TypeScript}}`  
-- **Mineração / Scraping**: `{{ex.: Scrapy, BeautifulSoup, Selenium}}`  
-- **Processamento de texto / NLP**: `{{ex.: spaCy, NLTK, transformers}}`  
-- **Banco de dados**: `{{ex.: PostgreSQL, MongoDB}}`  
-- **Backend / API**: `{{ex.: FastAPI, Flask, Node.js/Express}}`  
-- **Frontend**: `{{ex.: React, Vue}}`  
-- **Infra/Deploy**: `{{ex.: Docker, GitHub Actions, Heroku, AWS}}`  
-- **Testes & QA**: `{{ex.: pytest, jest}}`  
-- **Observability**: `{{ex.: Sentry, Prometheus}}`  
+- **Linguagens**: `Python `  
+- **Mineração / Scraping**: ``  
+- **Processamento de texto / NLP**: ``  
+- **Banco de dados**: ``  
+- **Backend / API**: ``  
+- **Frontend**: `{{ex.: React, Vue}}`      
 - **Controle de versão & colaboração**: Git, GitHub (issues, PRs, templates)  
-- **Outros serviços**: `{{ex.: serviços de hospedagem, APIs de terceiros (ex.: APIs de verificação), serviços de embeddings}}`
+- **Outros serviços**:
 
 ---
 
@@ -67,6 +64,6 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 3. Abra um Pull Request descrevendo mudanças e testes realizados.  
 4. Atualize a seção `Melhorias em Desenvolvimento` com a tarefa vinculada à issue correspondente.
 
-## Pré-requisitos, instalação e guia de configurações - É Fake
+## Pré-requisitos, instalação e guia de configurações - É Fake (adicionar no futuro)
 
 
