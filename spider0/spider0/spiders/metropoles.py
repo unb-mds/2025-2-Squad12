@@ -7,4 +7,5 @@ class MetropolesSpider(scrapy.Spider):
     start_urls = ["https://www.metropoles.com/distrito-federal"]
 
     def parse(self, response):
-        pass
+        for href in response.css('article h2 a::attr(href)').extract():
+            yield response.follow(href, self.parse_article)

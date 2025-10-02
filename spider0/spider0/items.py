@@ -7,6 +7,7 @@ import scrapy
 
 
 class Spider0Item(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    titulo = scrapy.Field()
+    autor = scrapy.Field()
+    data_publicacao = scrapy.Field()
+    
