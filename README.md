@@ -63,6 +63,6 @@ O objetivo do projeto é reunir dados de criptomoedas, utilizando-se de Spiders 
 3. Abra um Pull Request descrevendo mudanças e testes realizados.  
 4. Atualize a seção `Melhorias em Desenvolvimento` com a tarefa vinculada à issue correspondente.
 
-## Pré-requisitos, instalação e guia de configurações - É Fake (adicionar no futuro)
+## Pré-requisitos, instalação, guia de configurações e como utilizar - É Crypto (adicionar no futuro)
 
 
