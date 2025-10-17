@@ -1,23 +1,22 @@
 # 2025-2-Squad12
-# É Fake
+# É Crypto
 
 ## Descrição do projeto
-**É Fake** é uma aplicação para mineração e verificação automática de notícias.  
-O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múltiplas fontes, comparar o conteúdo  e fornecer sinais/indicações se uma informação aparenta ser verdadeira ou falsa, utilizando um sistema de mineração e comparação de dados.
-
+**É Crypto** é um projeto de site que vai minerar as notícias, informações e curiosidades sobre o mundo de criptomoedas.  
+O objetivo do projeto é reunir dados de criptomoedas, utilizando-se de Spiders para a mineração de diversos sites confiáveis, e entregá-los ao usuário com uma interface amigável e de fácil compreensão.
 >
 
 ### Campo rápido (resumo)
-- Público-alvo: `{{ex.: jornalistas, pesquisadores, usuários em geral}}`
-- Escopo inicial: `Garantir que a mineração de dados está sendo realizada da maneira correta...`
+- Público-alvo: Publico em geral
+- Escopo inicial: Entregar informações e curiosidades de criptomoedas iniciais, e conferir se a mineração de dados está sendo efetiva
 
 ---
 
 ## Objetivos
-- Implementar pipelines de mineração que coletem notícias de pelo menos **mais 2 fontes de notícias** além do conjunto atual. `{{detalhar sites alvo}}`  
-- Normalizar e armazenar as notícias coletadas em um formato que permita comparação (metadados, texto limpo, data, autor, URL).  
-- Construir uma aplicação web para exploração das notícias e visualização de comparações entre fontes.  
-- Criar um sistema automático que gere um **score** ou **sinais** de potencial desinformação com justificativa (por exemplo: divergência de dados, ausência de fontes primárias, linguagem sensacionalista).  
+- Implementar pipelines de mineração que coletem dados de **diversos sites** para melhor credibilidade do conteúdo. `{{detalhar sites alvo}}`  
+- `Normalizar e armazenar as notícias coletadas em um formato que permita comparação (metadados, texto limpo, data, autor, URL).  `
+- Construir uma aplicação web para exploração de diversas notícias e descomplicar o assunto de cripto.  
+- Criar um sistema DE VOTAÇÃO de usuários das informações exibidas no site para obtermos um feedback e fornecermos uma melhor experiência.  
 - Garantir reprodutibilidade: scripts de coleta, testes e documentação para reprodução do pipeline.
 
 ---
@@ -50,7 +49,7 @@ O projeto tem como objetivo reunir dados (reportagens, notícias ou ...) de múl
 |------|--------|
 | Leonardo Rodrigues Martins | [Antedeguemon21](https://github.com/Antedeguemon21) |
 | Lucas Emanuel Costa dos Santos  | [TsukiRaiito](https://github.com/TsukiRaiito) |
-| João Paulo da Silva Pereira  | [Jp-te](*link do git) |
+| João Paulo da Silva Pereira  | [Jp-te](*link do git???) |
 | Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao) |
 | Arthur Souto Santos | [arthursouto09](https://github.com/arthursouto09) |
 ---
