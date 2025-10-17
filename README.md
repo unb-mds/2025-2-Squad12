@@ -14,7 +14,7 @@ O objetivo do projeto é reunir dados de criptomoedas, utilizando-se de Spiders 
 
 ## Objetivos
 - Implementar pipelines de mineração que coletem dados de **diversos sites** para melhor credibilidade do conteúdo. `{{detalhar sites alvo}}`  
-- `Normalizar e armazenar as notícias coletadas em um formato que permita comparação (metadados, texto limpo, data, autor, URL).  `
+- `Normalizar e armazenar as notícias coletadas em um formato que permita comparação (metadados, texto limpo, data, autor, URL).  ` **Editar essa parte*
 - Construir uma aplicação web para exploração de diversas notícias e descomplicar o assunto de cripto.  
 - Criar um sistema DE VOTAÇÃO de usuários das informações exibidas no site para obtermos um feedback e fornecermos uma melhor experiência.  
 - Garantir reprodutibilidade: scripts de coleta, testes e documentação para reprodução do pipeline.
