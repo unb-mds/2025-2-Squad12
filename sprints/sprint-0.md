@@ -7,7 +7,7 @@ Nesta sprint inicial, foram definidos os principais pontos organizacionais do gr
 | --- | --- |
 | **Frontend** | [Leonardo](https://github.com/Antedeguemon21), [Lucas](https://github.com/arthursouto09) |
 | **Backend** | [Arthur](https://github.com/arthursouto09), [Vitor](https://github.com/SemC0ndicao) |
-| **Documentação** | [Arthur](https://github.com/arthursouto09) |
+| **Documentação** | [Arthur](https://github.com/arthursouto09) | [João](https://github.com/Jp-te) |
 
 ---
 
