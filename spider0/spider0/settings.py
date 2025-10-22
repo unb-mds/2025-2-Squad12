@@ -19,7 +19,7 @@ ADDONS = {}
 #USER_AGENT = "spider0 (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Concurrency and throttling settings
 #CONCURRENT_REQUESTS = 16
@@ -60,7 +60,11 @@ DOWNLOAD_DELAY = 1
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
 #    "spider0.pipelines.Spider0Pipeline": 300,
+    
 #}
+ITEM_PIPELINES = {
+   'spider0.pipelines.LimpezaPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

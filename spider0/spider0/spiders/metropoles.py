@@ -1,3 +1,4 @@
+from spider0.items import Spider0Item
 import scrapy
 
 
@@ -13,5 +14,12 @@ class MetropolesSpider(scrapy.Spider):
         titulo = response.css('h1::text').get()
         yield {
         'titulo': titulo
-    }
+        }
+
+        item = Spider0Item()
+        item['nome'] = response.css('h1.nome-produto::text').get()
+        item['preco'] = response.css('span.preco-produto::text').get()
+        item['descricao'] = response.css('div.descricao-produto p::text').get()
+        yield item
+    
     
