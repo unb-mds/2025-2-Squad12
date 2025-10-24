@@ -6,10 +6,10 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
-from spider0.spiders.metropoles import MetropolesSpider
 
-class Spider0Pipeline:
-    def process_item(self, item, MetropolesSpider):
+
+class LimpezaPipeline:
+    def process_item(self, item, spider):
 
         if 'nome' in item:
             item['nome'] = item['nome'].strip()

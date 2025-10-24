@@ -62,9 +62,10 @@ DOWNLOAD_DELAY = 1
 #    "spider0.pipelines.Spider0Pipeline": 300,
     
 #}
-ITEM_PIPELINES = {
-   'spider0.pipelines.LimpezaPipeline': 300,
-}
+
+#ITEM_PIPELINES = {
+#   'spider0.pipelines.LimpezaPipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
