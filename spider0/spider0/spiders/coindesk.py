@@ -2,10 +2,10 @@ from spider0.items import Spider0Item
 import scrapy
 
 
-class MetropolesSpider(scrapy.Spider):
-    name = "metropoles"
-    allowed_domains = ["metropoles.com"]
-    start_urls = ["https://www.metropoles.com/distrito-federal"]
+class CoindeskSpider(scrapy.Spider):
+    name = "coindesk"
+    allowed_domains = ["coindesk.com"]
+    start_urls = ["https://www.coindesk.com/latest-crypto-news"]
 
     def parse(self, response):
         for href in response.css('article h2 a::attr(href)').extract():
