@@ -22,3 +22,8 @@
 * Integrar os dados JSON ao front-end assim que a escolha da linguagem estiver definida.
 * Preparar/encontrar um bom template que encaixe com a temática do projeto, usando as sugestões dadas pela professora
 
+## Observações da equipe e planejamentos
+
+* Progresso um pouco lento, mas estável e constante: back-end funcional e infra de deploy em configuração inicial.
+* Priorizamos finalizar os ajustes das raspagens e definir a tecnologia de front-end antes de escalar as entregas.
+* Finalizar o figma 
