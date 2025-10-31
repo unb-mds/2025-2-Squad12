@@ -14,3 +14,11 @@
 * O Front-end já está encaminhado 
 * CI / Deploy: começando a configuração com Git Actions.
 
+## Próximas etapas
+
+* Ajustar a raspagem para se adaptar ao HTML de cada site (padronizar seletores e validação do JSON).
+* Avançar no front-end (definir a linguagem/framework e implementar os componentes iniciais).
+* Completar a configuração do Git Actions para deploy do site e validar o pipeline de CI.
+* Integrar os dados JSON ao front-end assim que a escolha da linguagem estiver definida.
+* Preparar/encontrar um bom template que encaixe com a temática do projeto, usando as sugestões dadas pela professora
+
