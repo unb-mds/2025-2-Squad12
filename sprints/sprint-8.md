@@ -1,4 +1,4 @@
-# Sprint — Resumo semanal
+# Sprint 8 — Resumo semanal
 
 ## Objetivo & Progresso
 
