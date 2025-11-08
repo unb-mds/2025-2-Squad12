@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  transition: background 0.4s, color 0.4s;
+}
+
+.App.light {
+  background: #f5f5f5;
+  color: #222;
+}
+
+.App.dark {
+  background: #1c1c1c;
+  color: #f8d7da;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border-bottom: 2px solid #aaa;
+}
+
+.theme-button {
+  background: #ff4d6d;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.theme-button:hover {
+  background: #ff6680;
+}
+
+.news-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 3rem;
+}
