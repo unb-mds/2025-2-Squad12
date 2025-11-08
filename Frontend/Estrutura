@@ -1,0 +1,8 @@
+frontend/
+├── src/
+│   ├── components/
+│   │   └── NewsCard.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.js
+├── package.json
