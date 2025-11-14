@@ -1,68 +1,98 @@
-# 2025-2-Squad12
-# É Crypto
+# 📌 Projeto: **É Crypto**
 
-## Descrição do projeto
-**É Crypto** é um projeto de site que vai minerar as notícias, informações e curiosidades sobre o mundo de criptomoedas.  
-O objetivo do projeto é reunir dados de criptomoedas, utilizando-se de Spiders para a mineração de diversos sites confiáveis, e entregá-los ao usuário com uma interface amigável e de fácil compreensão.
->
+## 🪙 Visão Geral do Projeto
 
-### Campo rápido (resumo)
-- Público-alvo: Publico em geral
-- Escopo inicial: Entregar informações e curiosidades de criptomoedas iniciais, e conferir se a mineração de dados está sendo efetiva
+**É Crypto** é um portal dedicado a reunir, organizar e exibir notícias, informações e curiosidades sobre o universo das criptomoedas. O projeto utiliza técnicas de mineração de dados (web scraping) por meio de *spiders* especializadas, buscando conteúdo em múltiplas fontes confiáveis para garantir qualidade, diversidade e precisão das informações.
+
+A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil navegação, tornando o complexo mundo das criptos acessível para todos — desde iniciantes até entusiastas.
 
 ---
 
-## Objetivos
-- Implementar pipelines de mineração que coletem dados de **diversos sites** para melhor credibilidade do conteúdo. `{{detalhar sites alvo}}`  
-- `Normalizar e armazenar as notícias coletadas em um formato que permita comparação (metadados, texto limpo, data, autor, URL).  ` **Editar essa parte*
-- Construir uma aplicação web para exploração de diversas notícias e descomplicar o assunto de cripto.  
-- Criar um sistema DE VOTAÇÃO de usuários das informações exibidas no site para obtermos um feedback e fornecermos uma melhor experiência.  
-- Garantir reprodutibilidade: scripts de coleta, testes e documentação para reprodução do pipeline.
+## ⚡ Resumo Rápido
+
+* **Público-alvo:** Público geral, com ou sem conhecimento prévio em criptomoedas.
+* **Escopo Inicial:** Coletar e exibir notícias e curiosidades iniciais sobre criptomoedas e validar a eficiência dos processos de mineração.
 
 ---
 
-## Melhorias em Andamento
-> Usar esta seção para listar tarefas em andamento e próximas funcionalidades:
+## 🎯 Objetivos do Projeto
 
-
-
----
-
-## Ferramentas utilizadas
-
-(ir atualizando, apagando ou modificando com o passar do projeto!)
-
-- **Linguagens**: `Python, Scrapy `  
-- **Mineração / Scraping**: `Scrapy (Open Source)`  
-- **Processamento de texto / NLP**: ``  
-- **Banco de dados**: `Banco de dados local em CSV`  
-- **Backend / API**: `Python`  
-- **Frontend**: `{{ex.: React, Vue}}`      
-- **Controle de versão & colaboração**: Git, GitHub (issues, PRs, templates)  
-- **Outros serviços**:
+* Implementar **pipelines de mineração** que coletem dados de **vários sites confiáveis** (CoinDesk, CoinTelegraph, CryptoNews, etc.).
+* **Normalizar, categorizar e armazenar** o conteúdo obtido (com metadados como título, texto limpo, data, autor, URL e categoria).
+* Desenvolver uma **aplicação web completa** para que usuários explorem notícias e aprendam sobre cripto de forma simples.
+* Criar um **sistema de votação/feedback**, permitindo que usuários avaliem as informações apresentadas.
+* Garantir **reprodutibilidade** do pipeline com documentação, testes, scripts organizados e versionamento.
 
 ---
 
-## 👥 Equipe
+## 🚧 Melhorias em Andamento
 
-| Nome | GitHub |
-|------|--------|
-| Leonardo Rodrigues Martins | [Antedeguemon21](https://github.com/Antedeguemon21) |
-| Lucas Emanuel Costa dos Santos  | [TsukiRaiito](https://github.com/TsukiRaiito) |
-| João Paulo da Silva Pereira  | [Jp-te](*link do git???) |
-| Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao) |
-| Arthur Souto Santos | [arthursouto09](https://github.com/arthursouto09) |
+> Aqui listaremos todas as tarefas em progresso e funcionalidades planejadas:
+
+* Desenvolvimento dos spiders iniciais usando Scrapy
+* Definição da base de dados final (migração de CSV para banco relacional)
+* Protótipo do frontend no Figma
+* Sistema de avaliação de notícias com votos positivos/negativos
+* Normalização automática do texto coletado
+* Criação de API para comunicação entre backend e frontend
+
 ---
 
-## Links 
+## 🛠️ Ferramentas Utilizadas
 
-[Figma](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---%C3%89-FAKE?node-id=0-1&t=DRm0SywJFQwlmW23-1)
-## Como contribuir (resumo)
-1. Faça um fork do repositório.  
-2. Crie uma branch `feature/nome-da-feature`.  
-3. Abra um Pull Request descrevendo mudanças e testes realizados.  
-4. Atualize a seção `Melhorias em Desenvolvimento` com a tarefa vinculada à issue correspondente.
+*(Itens podem ser atualizados conforme o projeto evolui.)*
 
-## Pré-requisitos, instalação, guia de configurações e como utilizar - É Crypto (adicionar no futuro)
+* **Linguagens:** Python
+* **Mineração / Scraping:** Scrapy
+* **Processamento de Texto / NLP:** (a definir – ex.: spaCy ou NLTK)
+* **Banco de Dados:** CSV (inicial), Banco relacional futuro (ex.: PostgreSQL/MySQL)
+* **Backend / API:** Python (Flask ou FastAPI — ainda definir)
+* **Frontend:** React (sugerido pelo grupo)
+* **Versionamento:** Git & GitHub (issues, PRs, templates)
+* **Outros serviços:** Figma, Trello/Notion (organização do time)
+
+---
+
+## 👥 Equipe do Projeto
+
+| Nome                             | GitHub                                                                 |
+| -------------------------------- | ---------------------------------------------------------------------- |
+| Leonardo Rodrigues Martins       | [https://github.com/Antedeguemon21](https://github.com/Antedeguemon21) |
+| Lucas Emanuel Costa dos Santos   | [https://github.com/TsukiRaiito](https://github.com/TsukiRaiito)       |
+| João Paulo da Silva Pereira      | [https://github.com/Jp-te] ??                                          |
+| Vitor Evangelista da Silva Alves | [https://github.com/SemC0ndicao](https://github.com/SemC0ndicao)       |
+| Arthur Souto Santos              | [https://github.com/arthursouto09](https://github.com/arthursouto09)   |
+
+---
+
+## 🔗 Links Importantes
+
+* **Protótipo no Figma:** [https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---%C3%89-FAKE?node-id=0-1&t=DRm0SywJFQwlmW23-1](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---%C3%89-FAKE?node-id=0-1&t=DRm0SywJFQwlmW23-1)
+
+---
+
+## 🤝 Como Contribuir
+
+1. Faça um **fork** do repositório.
+2. Crie uma branch com o padrão: `feature/nome-da-feature`.
+3. Abra um **Pull Request**, descrevendo claramente as mudanças e testes realizados.
+4. Atualize a seção **Melhorias em Andamento** com a tarefa relacionada à issue correspondente.
+
+---
+
+## 📘 Futuro: Pré-requisitos, Instalação e Guia de Uso
+
+*(Esta seção será desenvolvida conforme o projeto evolui.)*
+
+* Setup do ambiente Python
+* Instalação de dependências (Scrapy, etc.)
+* Como executar spiders
+* Como rodar o backend
+* Como iniciar o frontend
+* Possíveis configurações avançadas
+
+---
+
+✨ *Documento em atualização constante. Mantenha o README sempre alinhado ao progresso da equipe!*
 
 
