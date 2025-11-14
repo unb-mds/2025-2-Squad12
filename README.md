@@ -59,7 +59,7 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 | -------------------------------- | ---------------------------------------------------------------------- |
 | Leonardo Rodrigues Martins       | [Antedeguemon21](https://github.com/Antedeguemon21) |
 | Lucas Emanuel Costa dos Santos   | [TsukiRaiito](https://github.com/TsukiRaiito)       |
-| João Paulo da Silva Pereira      | [https://github.com/Jp-te] ??                                          |
+| João Paulo da Silva Pereira      | [??]                                           |
 | Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao)       |
 | Arthur Souto Santos              | [arthursouto09](https://github.com/arthursouto09)   |
 
