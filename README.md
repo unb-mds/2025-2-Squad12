@@ -57,17 +57,17 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 | Nome                             | GitHub                                                                 |
 | -------------------------------- | ---------------------------------------------------------------------- |
-| Leonardo Rodrigues Martins       | [https://github.com/Antedeguemon21](https://github.com/Antedeguemon21) |
-| Lucas Emanuel Costa dos Santos   | [https://github.com/TsukiRaiito](https://github.com/TsukiRaiito)       |
+| Leonardo Rodrigues Martins       | [Antedeguemon21](https://github.com/Antedeguemon21) |
+| Lucas Emanuel Costa dos Santos   | [TsukiRaiito](https://github.com/TsukiRaiito)       |
 | João Paulo da Silva Pereira      | [https://github.com/Jp-te] ??                                          |
-| Vitor Evangelista da Silva Alves | [https://github.com/SemC0ndicao](https://github.com/SemC0ndicao)       |
-| Arthur Souto Santos              | [https://github.com/arthursouto09](https://github.com/arthursouto09)   |
+| Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao)       |
+| Arthur Souto Santos              | [arthursouto09](https://github.com/arthursouto09)   |
 
 ---
 
 ## 🔗 Links Importantes
 
-* **Protótipo no Figma:** [https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---%C3%89-FAKE?node-id=0-1&t=DRm0SywJFQwlmW23-1](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---%C3%89-FAKE?node-id=0-1&t=DRm0SywJFQwlmW23-1)
+* **Protótipo no Figma:** [Figma](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
 
 ---
 
