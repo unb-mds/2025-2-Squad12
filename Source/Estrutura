@@ -1,5 +1,5 @@
 Source/
-├── frontend/
+├── front-end/
 │   ├── components/
 │   │   └── NewsCard.jsx
 │   ├── App.jsx
