@@ -1,6 +1,6 @@
-# 📌 Projeto: **É Crypto**
+# Projeto: **É Crypto**
 
-## 🪙 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 **É Crypto** é um portal dedicado a reunir, organizar e exibir notícias, informações e curiosidades sobre o universo das criptomoedas. O projeto utiliza técnicas de mineração de dados (web scraping) por meio de *spiders* especializadas, buscando conteúdo em múltiplas fontes confiáveis para garantir qualidade, diversidade e precisão das informações.
 
@@ -8,14 +8,14 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ---
 
-## ⚡ Resumo Rápido
+## Resumo Rápido
 
 * **Público-alvo:** Público geral, com ou sem conhecimento prévio em criptomoedas.
 * **Escopo Inicial:** Coletar e exibir notícias e curiosidades iniciais sobre criptomoedas e validar a eficiência dos processos de mineração.
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 * Implementar **pipelines de mineração** que coletem dados de **vários sites confiáveis** (CoinDesk, CoinTelegraph, CryptoNews, etc.).
 * **Normalizar, categorizar e armazenar** o conteúdo obtido (com metadados como título, texto limpo, data, autor, URL e categoria).
@@ -25,7 +25,7 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ---
 
-## 🚧 Melhorias em Andamento
+## Melhorias em Andamento
 
 > Aqui listaremos todas as tarefas em progresso e funcionalidades planejadas:
 
@@ -38,7 +38,7 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 *(Itens podem ser atualizados conforme o projeto evolui.)*
 
@@ -53,7 +53,7 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ---
 
-## 👥 Equipe do Projeto
+## Equipe do Projeto
 
 | Nome                             | GitHub                                                                 |
 | -------------------------------- | ---------------------------------------------------------------------- |
@@ -65,13 +65,13 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ---
 
-## 🔗 Links Importantes
+## Links Importantes
 
 * **Protótipo no Figma:** [Figma](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
 
 ---
 
-## 🤝 Como Contribuir
+## Como Contribuir
 
 1. Faça um **fork** do repositório.
 2. Crie uma branch com o padrão: `feature/nome-da-feature`.
@@ -80,7 +80,7 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ---
 
-## 📘 Futuro: Pré-requisitos, Instalação e Guia de Uso
+## Futuro: Pré-requisitos, Instalação e Guia de Uso
 
 *(Esta seção será desenvolvida conforme o projeto evolui.)*
 
@@ -92,7 +92,5 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 * Possíveis configurações avançadas
 
 ---
-
-✨ *Documento em atualização constante. Mantenha o README sempre alinhado ao progresso da equipe!*
 
 
