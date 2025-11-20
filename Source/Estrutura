@@ -1,8 +1,9 @@
-Source/
-├── front-end/
-│   ├── components/
-│   │   └── NewsCard.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   └── index.js
-├── package.json
+frontend/
+│── index.html          → Layout principal e navegação
+│── styles.css          → Estilos globais
+│── app.js              → Lógica principal e rotas
+│
+└── components/         → Componentes reutilizáveis
+    │── NewsList.js     → Lista de notícias
+    │── NewsDetail.js   → Página de detalhe
+    │── VoteWidget.js   → Sistema de feedback
