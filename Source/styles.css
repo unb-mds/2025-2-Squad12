@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.topbar {
+  background: #111;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav button {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#app {
+  padding: 2rem;
+}
+
+.news-card {
+  background: white;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0001;
+  cursor: pointer;
+}
+
+.news-title {
+  margin-top: 0;
+}
+
+.vote-box {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.vote-btn {
+  font-size: 1.5rem;
+  background: #eee;
+  border: none;
+  border-radius: 8px;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+.vote-btn:hover {
+  background: #ddd;
+}
