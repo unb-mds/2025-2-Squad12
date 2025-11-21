@@ -1,65 +1,102 @@
 # Projeto: **É Crypto**
 
-## Visão Geral do Projeto
+> Portal para coletar, organizar e exibir notícias, informações e curiosidades do universo das criptomoedas.
 
-**É Crypto** é um portal dedicado a reunir, organizar e exibir notícias, informações e curiosidades sobre o universo das criptomoedas. O projeto utiliza técnicas de mineração de dados (web scraping) por meio de *spiders* especializadas, buscando conteúdo em múltiplas fontes confiáveis para garantir qualidade, diversidade e precisão das informações.
+---
 
-A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil navegação, tornando o complexo mundo das criptos acessível para todos — desde iniciantes até entusiastas.
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]() [![License](https://img.shields.io/badge/license-A%20definir-lightgrey)]()
+
+## Visão Geral
+
+**É Crypto** é um portal que agrega conteúdo sobre criptomoedas por meio de pipelines de mineração (web scraping). Spiders especializadas coletam artigos e curiosidades de múltiplas fontes confiáveis para apresentar ao usuário informação normalizada, categorizada e facilmente navegável — voltado tanto para iniciantes quanto para entusiastas.
 
 ---
 
 ## Resumo Rápido
 
-* **Público-alvo:** Público geral, com ou sem conhecimento prévio em criptomoedas.
-* **Escopo Inicial:** Coletar e exibir notícias e curiosidades iniciais sobre criptomoedas e validar a eficiência dos processos de mineração.
+* **Público-alvo:** público geral (com ou sem conhecimento prévio).
+* **Escopo inicial:** coleta e exibição de notícias e curiosidades; validação do pipeline de mineração.
+* **Status atual:** desenvolvimento dos spiders e definição da arquitetura de dados.
 
 ---
 
-## Objetivos do Projeto
+## Objetivos
 
-* Implementar **pipelines de mineração** que coletem dados de **vários sites confiáveis** (CoinDesk, CoinTelegraph, CryptoNews, etc.).
-* **Normalizar, categorizar e armazenar** o conteúdo obtido (com metadados como título, texto limpo, data, autor, URL e categoria).
-* Desenvolver uma **aplicação web completa** para que usuários explorem notícias e aprendam sobre cripto de forma simples.
-* Criar um **sistema de votação/feedback**, permitindo que usuários avaliem as informações apresentadas.
-* Garantir **reprodutibilidade** do pipeline com documentação, testes, scripts organizados e versionamento.
-
----
-
-## Melhorias em Andamento
-
-> Aqui listaremos todas as tarefas em progresso e funcionalidades planejadas:
-
-* Desenvolvimento dos spiders iniciais usando Scrapy
-* Definição da base de dados final (migração de CSV para banco relacional)
-* Protótipo do frontend no Figma
-* Sistema de avaliação de notícias com votos positivos/negativos
-* Normalização automática do texto coletado
-* Criação de API para comunicação entre backend e frontend
+* Implementar **pipelines de scraping** capazes de extrair conteúdo de diversos sites confiáveis.
+* **Normalizar, categorizar e armazenar** dados com metadados (título, texto limpo, data, autor, URL, categoria).
+* Desenvolver **API backend** e **frontend** para navegação e consumo de conteúdo.
+* Criar **sistema de feedback/votação** para avaliar qualidade das notícias.
+* Documentar e garantir **reprodutibilidade** (scripts, testes, versionamento).
 
 ---
 
-## Ferramentas Utilizadas
+## Roadmap / Melhorias em Andamento
 
-*(Itens podem ser atualizados conforme o projeto evolui.)*
-
-* **Linguagens:** Python
-* **Mineração / Scraping:** Scrapy
-* **Processamento de Texto / NLP:** (a definir – ex.: spaCy ou NLTK)
-* **Banco de Dados:** CSV (inicial), Banco relacional futuro (ex.: PostgreSQL/MySQL)
-* **Backend / API:** Python (Flask ou FastAPI — ainda definir)
-* **Frontend:** React (sugerido pelo grupo)
-* **Versionamento:** Git & GitHub (issues, PRs, templates)
-* **Outros serviços:** Figma, Trello/Notion (organização do time)
+* [x] Desenvolvimento dos spiders iniciais (Scrapy).
+* [ ] Migração do armazenamento inicial (CSV) para banco relacional (PostgreSQL/MySQL).
+* [ ] Protótipo do frontend (Figma).
+* [ ] Sistema de votação de notícias (positivo/negativo).
+* [ ] Normalização automática de texto coletado.
+* [ ] Criação da API entre backend e frontend.
+* [ ] Testes automatizados e CI.
 
 ---
 
-## Equipe do Projeto
+## Tarefas (organização do README e reestilização)
 
-| Nome                             | GitHub                                                                 |
-| -------------------------------- | ---------------------------------------------------------------------- |
+* [x] Reorganizar o conteúdo em seções claras.
+* [x] Formatar Markdown com títulos, listas e tabelas.
+* [x] Incluir checklist de progresso.
+* [ ] Documentar pré-requisitos e passos de instalação.
+* [ ] Adicionar exemplos de execução dos spiders e endpoints da API.
+* [ ] Padronizar templates de issues / PRs.
+
+---
+
+## Ferramentas e Tecnologias (sugestão atual)
+
+* **Linguagem:** Python
+* **Scraping / Crawling:** Scrapy
+* **NLP / Processamento de texto:** (a definir — ex.: spaCy, NLTK)
+* **Banco de dados:** CSV (inicial) → PostgreSQL / MySQL (futuro)
+* **Backend / API:** Flask ou FastAPI (a definir)
+* **Frontend:** React (proposta)
+* **Versionamento:** Git & GitHub (issues / PRs / templates)
+* **Design / Organização:** Figma, Trello / Notion
+
+---
+
+## Estrutura sugerida do repositório
+
+```
+/.
+├─ backend/
+│  ├─ app/
+│  ├─ requirements.txt
+│  └─ README.md
+├─ spiders/
+│  ├─ scrapy_project/
+│  └─ README.md
+├─ frontend/
+│  ├─ src/
+│  └─ README.md
+├─ data/
+│  ├─ raw/
+│  └─ processed/
+├─ docs/
+├─ tests/
+└─ README.md
+```
+
+---
+
+## Equipe
+
+| Nome                             | GitHub                                              |
+| -------------------------------- | --------------------------------------------------- |
 | Leonardo Rodrigues Martins       | [Antedeguemon21](https://github.com/Antedeguemon21) |
 | Lucas Emanuel Costa dos Santos   | [TsukiRaiito](https://github.com/TsukiRaiito)       |
-| João Paulo da Silva Pereira      | [??]                                           |
+| João Paulo da Silva Pereira      | (GitHub a adicionar)                                |
 | Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao)       |
 | Arthur Souto Santos              | [arthursouto09](https://github.com/arthursouto09)   |
 
@@ -67,30 +104,43 @@ A proposta é entregar ao usuário uma plataforma intuitiva, moderna e de fácil
 
 ## Links Importantes
 
-* **Protótipo no Figma:** [Figma](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
+* **Protótipo no Figma:** [Figma — GRUPO 12 — É-CRYPTO](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
 
 ---
 
 ## Como Contribuir
 
 1. Faça um **fork** do repositório.
-2. Crie uma branch com o padrão: `feature/nome-da-feature`.
-3. Abra um **Pull Request**, descrevendo claramente as mudanças e testes realizados.
-4. Atualize a seção **Melhorias em Andamento** com a tarefa relacionada à issue correspondente.
+2. Crie uma branch: `feature/nome-da-feature` ou `fix/descricao`.
+3. Abra um **Pull Request** descrevendo as mudanças, testes e link para a issue.
+4. Atualize a seção **Roadmap / Melhorias em Andamento** com a tarefa correspondente.
+
+**Modelos/boa prática:** usar templates para issues e PRs; incluir checklist de revisão nos PRs.
 
 ---
 
-## Futuro: Pré-requisitos, Instalação e Guia de Uso
+## Pré-requisitos & Guia Rápido (placeholder a ser detalhado)
 
-*(Esta seção será desenvolvida conforme o projeto evolui.)*
+* Configurar ambiente Python (virtualenv / venv / pyenv).
+* Instalar dependências (ex.: `pip install -r requirements.txt`).
+* Como executar spiders (ex.: `scrapy crawl nome_spider`).
+* Como iniciar o backend (ex.: `uvicorn app.main:app --reload` / `flask run`).
+* Como iniciar o frontend (ex.: `npm install && npm start`).
 
-* Setup do ambiente Python
-* Instalação de dependências (Scrapy, etc.)
-* Como executar spiders
-* Como rodar o backend
-* Como iniciar o frontend
-* Possíveis configurações avançadas
+(Detalhes completos e exemplos serão adicionados conforme a evolução do projeto.)
 
 ---
 
+## Testes, CI e Versionamento
 
+* Implementar testes unitários e de integração para spiders, pipelines e API.
+* Configurar CI (GitHub Actions) para rodar linters, testes e builds.
+* Versionamento semântico para releases.
+
+---
+
+## Licença
+
+A definir.
+
+---
