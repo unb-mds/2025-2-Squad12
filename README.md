@@ -77,8 +77,8 @@
 ├─ spiders/
 │  ├─ scrapy_project/
 │  └─ README.md
-├─ frontend/
-│  ├─ src/
+├─ Source/
+│  ├─ Front-End/
 │  └─ README.md
 ├─ data/
 │  ├─ raw/
