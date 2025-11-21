@@ -94,11 +94,11 @@
 
 | Nome                             | GitHub                                              |
 | -------------------------------- | --------------------------------------------------- |
+| Arthur Souto Santos              | [arthursouto09](https://github.com/arthursouto09)   |
+| João Paulo da Silva Pereira      | (GitHub a adicionar)                                |
 | Leonardo Rodrigues Martins       | [Antedeguemon21](https://github.com/Antedeguemon21) |
 | Lucas Emanuel Costa dos Santos   | [TsukiRaiito](https://github.com/TsukiRaiito)       |
-| João Paulo da Silva Pereira      | (GitHub a adicionar)                                |
 | Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao)       |
-| Arthur Souto Santos              | [arthursouto09](https://github.com/arthursouto09)   |
 
 ---
 
