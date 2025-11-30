@@ -31,6 +31,15 @@
 
 ---
 
+## Mudança de Tema do Projeto
+
+Este projeto originalmente tinha como tema **“É Fake”**, focado na análise e verificação de notícias falsas.  
+Contudo, ao longo do desenvolvimento, o tema foi atualizado para **“É Crypto”**, passando a abordar coleta e organização de conteúdos sobre criptomoedas.  
+
+Esta seção existe apenas para registrar oficialmente essa mudança de escopo no histórico do projeto.
+
+---
+
 ## Links Importantes
 
 * **Protótipo no Figma:** [Figma — GRUPO 12 — É-CRYPTO](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
