@@ -20,17 +20,6 @@
 
 ---
 
-## Tarefas (organização do README e reestilização)
-
-* [x] Reorganizar o conteúdo em seções claras.
-* [x] Formatar Markdown com títulos, listas e tabelas.
-* [x] Incluir checklist de progresso.
-* [ ] Documentar pré-requisitos e passos de instalação.
-* [ ] Adicionar exemplos de execução dos spiders e endpoints da API.
-* [ ] Padronizar templates de issues / PRs.
-
----
-
 ## Ferramentas e Tecnologias (sugestão atual)
 
 * **Linguagem:** Python
