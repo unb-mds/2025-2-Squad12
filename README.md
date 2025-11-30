@@ -20,16 +20,6 @@
 
 ---
 
-## Objetivos
-
-* Implementar **pipelines de scraping** capazes de extrair conteúdo de diversos sites confiáveis.
-* **Normalizar, categorizar e armazenar** dados com metadados (título, texto limpo, data, autor, URL, categoria).
-* Desenvolver **API backend** e **frontend** para navegação e consumo de conteúdo.
-* Criar **sistema de feedback/votação** para avaliar qualidade das notícias.
-* Documentar e garantir **reprodutibilidade** (scripts, testes, versionamento).
-
----
-
 ## Roadmap / Melhorias em Andamento
 
 * [x] Desenvolvimento dos spiders iniciais (Scrapy).
