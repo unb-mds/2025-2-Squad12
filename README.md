@@ -20,52 +20,16 @@
 
 ---
 
-## Ferramentas e Tecnologias (sugestão atual)
-
-* **Linguagem:** Python
-* **Scraping / Crawling:** Scrapy
-* **NLP / Processamento de texto:** (a definir — ex.: spaCy, NLTK)
-* **Banco de dados:** CSV (inicial) → PostgreSQL / MySQL (futuro)
-* **Backend / API:** Flask ou FastAPI (a definir)
-* **Frontend:** React (proposta)
-* **Versionamento:** Git & GitHub (issues / PRs / templates)
-* **Design / Organização:** Figma, Trello / Notion
-
----
-
-## Estrutura sugerida do repositório
-
-```
-/.
-├─ backend/
-│  ├─ app/
-│  ├─ requirements.txt
-│  └─ README.md
-├─ spiders/
-│  ├─ scrapy_project/
-│  └─ README.md
-├─ Source/
-│  ├─ Front-End/
-│  └─ README.md
-├─ data/
-│  ├─ raw/
-│  └─ processed/
-├─ docs/
-├─ tests/
-└─ README.md
-```
-
----
-
 ## Equipe
 
-| Nome                             | GitHub                                              |
-| -------------------------------- | --------------------------------------------------- |
-| Arthur Souto Santos              | [arthursouto09](https://github.com/arthursouto09)   |
-| João Paulo da Silva Pereira      | (GitHub a adicionar)                                |
-| Leonardo Rodrigues Martins       | [Antedeguemon21](https://github.com/Antedeguemon21) |
-| Lucas Emanuel Costa dos Santos   | [TsukiRaiito](https://github.com/TsukiRaiito)       |
-| Vitor Evangelista da Silva Alves | [SemC0ndicao](https://github.com/SemC0ndicao)       |
+| Nome                             | Matrícula | GitHub         |             Email              |
+| -------------------------------- | --------- | -------------- | ------------------------------ |
+| Arthur Souto Santos              | 222006570 | arthursouto09  | arthur090810@gmail.com         |
+| João Paulo da Silva Pereira      | 241025784 | ---            | —                              |
+| Leonardo Rodrigues Martins       | 211062105 | Antedeguemon21 | leonardo.2003martins@gmail.com |
+| Lucas Emanuel Costa dos Santos   | 222006140 | Tsuki Raiito   | lucasemanuel.hudy@gmail.com    |
+| Vitor Evangelista da Silva Alves | 221038140 | SemC0indicação | evangelistav92@gmail.com       |
+
 
 ---
 
