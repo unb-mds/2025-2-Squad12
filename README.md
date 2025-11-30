@@ -20,18 +20,6 @@
 
 ---
 
-## Roadmap / Melhorias em Andamento
-
-* [x] Desenvolvimento dos spiders iniciais (Scrapy).
-* [ ] Migração do armazenamento inicial (CSV) para banco relacional (PostgreSQL/MySQL).
-* [ ] Protótipo do frontend (Figma).
-* [ ] Sistema de votação de notícias (positivo/negativo).
-* [ ] Normalização automática de texto coletado.
-* [ ] Criação da API entre backend e frontend.
-* [ ] Testes automatizados e CI.
-
----
-
 ## Tarefas (organização do README e reestilização)
 
 * [x] Reorganizar o conteúdo em seções claras.
