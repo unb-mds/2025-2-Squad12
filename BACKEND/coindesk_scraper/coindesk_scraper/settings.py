@@ -14,7 +14,7 @@ SPIDER_MODULES = ['coindesk_scraper.spiders']
 NEWSPIDER_MODULE = 'coindesk_scraper.spiders'
 
 # Configurações de Robôs.txt
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configurações de Download
 DOWNLOAD_DELAY = 1  # 1 segundo entre requisições
