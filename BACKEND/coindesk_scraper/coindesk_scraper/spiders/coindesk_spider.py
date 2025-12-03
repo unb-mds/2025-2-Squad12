@@ -16,7 +16,7 @@ class CoindeskSpider(scrapy.Spider):
         """
         Extrai links das notícias recentes da página inicial
         """
-        # XPath para os links das notícias - ATUALIZE CONFORME O SITE
+        # XPath para os links das notícias 
         news_links = response.xpath('//article//a[contains(@href, "/news/")]/@href').getall()
         
         # Filtrar e normalizar URLs
@@ -30,9 +30,9 @@ class CoindeskSpider(scrapy.Spider):
                 )
         
         # Opcional: Paginação para mais notícias
-        # next_page = response.xpath('//a[contains(@class, "next")]/@href').get()
-        # if next_page:
-        #     yield response.follow(next_page, callback=self.parse_news_list)
+        next_page = response.xpath('//a[contains(@class, "next")]/@href').get()
+        if next_page:
+            yield response.follow(next_page, callback=self.parse_news_list)
     
     def parse_news_article(self, response):
         """
@@ -43,7 +43,7 @@ class CoindeskSpider(scrapy.Spider):
             self.logger.warning(f"Página não acessível: {response.url}")
             return
         
-        # Extrair dados usando XPath - ATUALIZE CONFORME O SITE
+        # Extrair dados usando XPath 
         item = {
             'url': response.url,
             'original_url': response.meta.get('original_url', ''),
