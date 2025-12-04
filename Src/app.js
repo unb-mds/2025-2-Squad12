@@ -1,25 +1,37 @@
-const API_BASE = "http://localhost:5000"; // AJUSTE PROVAVELMENTE NECESSÀRIO
+// URL da API do backend
+const API_URL = "http://localhost:5000/data";
 
-const app = document.getElementById("app");
+async function fetchNews() {
+    try {
+        const response = await fetch(API_URL);
+        const data = await response.json();
 
-// Rotas
-const routes = {
-  home: () => NewsList(),
-  news: id => NewsDetail(id),
-  categories: () => CategoryScreen(),
-  about: () => AboutScreen(),
-};
+        console.log("Dados recebidos do backend:", data);
 
-// Navegação
-document.querySelectorAll("button[data-route]").forEach(btn => {
-  btn.addEventListener("click", () => {
-    navigate(btn.dataset.route);
-  });
-});
-
-function navigate(route, param = null) {
-  if (param) return routes[route](param);
-  routes[route]();
+        renderNews(data);
+    } catch (error) {
+        console.error("Erro ao buscar dados:", error);
+    }
 }
 
-navigate("home"); // Carrega página inicial
+function renderNews(newsList) {
+    const container = document.getElementById("news-container");
+
+    container.innerHTML = ""; // limpa
+
+    newsList.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "news-card";
+
+        card.innerHTML = `
+            <h3>${item.title}</h3>
+            <p>${item.summary || ""}</p>
+            <a href="${item.link}" target="_blank">Leia mais</a>
+        `;
+
+        container.appendChild(card);
+    });
+}
+
+// Chama API ao carregar página
+window.onload = fetchNews;
