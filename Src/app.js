@@ -1,7 +1,8 @@
 // URL da API do backend
 const API_URL = "http://localhost:5000/data";
 
-async function fetchNews() {
+// Função principal chamada ao carregar a página
+async function loadNews() {
     try {
         const response = await fetch(API_URL);
         const data = await response.json();
@@ -14,8 +15,14 @@ async function fetchNews() {
     }
 }
 
+// Renderiza os itens no DOM
 function renderNews(newsList) {
     const container = document.getElementById("news-container");
+
+    if (!container) {
+        console.error("Elemento #news-container não encontrado no DOM.");
+        return;
+    }
 
     container.innerHTML = ""; // limpa
 
@@ -32,6 +39,3 @@ function renderNews(newsList) {
         container.appendChild(card);
     });
 }
-
-// Chama API ao carregar página
-window.onload = fetchNews;

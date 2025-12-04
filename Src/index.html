@@ -19,11 +19,25 @@
     </nav>
   </header>
 
-  <main id="app"></main>
+  <!-- Onde os componentes são renderizados -->
+  <main id="app">
+    <!-- container que será controlado pelo JS -->
+    <div id="news-container"></div>
+  </main>
 
-  <script src="app.js"></script>
+  <!-- Scripts -->
   <script src="components/NewsList.js"></script>
   <script src="components/NewsDetail.js"></script>
   <script src="components/VoteWidget.js"></script>
+  <script src="app.js"></script>
+  
+  <script>
+    // Inicializa aplicação após carregar scripts
+    window.onload = () => {
+      if (typeof loadNews === "function") {
+        loadNews(); // Função que você vai criar para consumir o backend e exibir dados
+      }
+    };
+  </script>
 </body>
 </html>
