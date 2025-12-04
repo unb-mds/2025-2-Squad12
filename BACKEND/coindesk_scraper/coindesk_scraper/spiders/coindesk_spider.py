@@ -5,6 +5,12 @@ from datetime import datetime
 class CoindeskSpider(scrapy.Spider):
     name = 'coindesk'
     allowed_domains = ['coindesk.com']
+
+    custom_settings = {
+        'FEED_EXPORT_INDENT': 2,  # ← Indentação bonita
+        'FEED_FORMAT': 'json',
+        'FEED_URI': 'primeira_noticia_%(time)s.json'
+    }
     
     def start_requests(self):
         yield scrapy.Request(
@@ -37,7 +43,7 @@ class CoindeskSpider(scrapy.Spider):
                 'resumo2': self.clean_text(
                     response.xpath('//*[@id="content"]/div/section/div/div[2]/div[1]/div[2]/div/div/p[2]/text()').get()
                 ),
-                
+
                 'link': response.urljoin(
                     response.xpath('//*[@id="content"]/div/section/div/div[2]/div[1]/div[2]/div/div/a/@href').get() or ''
                 )
