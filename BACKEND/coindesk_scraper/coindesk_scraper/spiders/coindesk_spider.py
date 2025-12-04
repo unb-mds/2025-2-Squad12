@@ -6,8 +6,9 @@ class CoindeskSpider(scrapy.Spider):
     name = 'coindesk'
     allowed_domains = ['coindesk.com']
 
+    # indentação da saida no .json
     custom_settings = {
-        'FEED_EXPORT_INDENT': 2,  # ← Indentação bonita
+        'FEED_EXPORT_INDENT': 2,  
         'FEED_FORMAT': 'json',
         'FEED_URI': 'primeira_noticia_%(time)s.json'
     }
@@ -31,7 +32,7 @@ class CoindeskSpider(scrapy.Spider):
             'scraped_at': datetime.now().isoformat(),
             
             
-            # PRIMEIRA NOTÍCIA ESPECÍFICA 
+            # xpath das noticias 
             'primeira_noticia': {
                 'titulo': self.clean_text(
                     response.xpath('//*[@id="content"]/div/section/div/div[2]/div[1]/div[2]/div/div/p[1]/a/text()').get()
