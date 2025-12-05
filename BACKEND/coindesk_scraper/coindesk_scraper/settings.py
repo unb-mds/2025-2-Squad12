@@ -40,7 +40,7 @@ DATA_DIR = 'data'
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # Nome do arquivo com timestamp
-filename = f"{DATA_DIR}/noticias_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+filename = f"{DATA_DIR}/C:/Users/pc/Desktop/dev/mds/2025-2-Squad12/FRONTEND/noticias_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
 # Configurar exportação
 FEED_FORMAT = 'json'
