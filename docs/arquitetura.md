@@ -12,3 +12,5 @@ O **É Crypto** é organizado em três partes principais:
   Spiders em **Scrapy** que fazem web scraping em sites de notícias de criptomoedas, extraem campos relevantes (título, data, link, fonte etc.) e salvam tudo em arquivos JSON que o backend utiliza.
 
 O fluxo geral é: **Scrapy coleta → salva em JSON → Flask lê e expõe via API → frontend consome e exibe ao usuário.**
+
+![Arquitetura do É Crypto](img/arquitetura.png)
