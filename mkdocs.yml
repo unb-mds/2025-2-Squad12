@@ -34,14 +34,15 @@ nav:
       - Sprint 10: Sprints/sprint-10.md
       - Sprint 11: Sprints/sprint-11.md
       - Sprint 12: Sprints/sprint-12.md
-  - Organização do Projeto:
-      - Arquitetura: arquitetura.md
-      - Storymap: storymap.md
-      - Roadmap: roadmap.md
-      - Protótipo: prototipo.md
-  - Como Executar?: como-executar.md
-  - Como Contribuir?: como-contribuir.md
-  - Release Notes: release-notes.md
+ # - Organização do Projeto:
+ #     - Arquitetura: arquitetura.md
+ #     - Storymap: storymap.md
+ #     - Roadmap: roadmap.md
+ #     - Protótipo: prototipo.md
+ # - Como Executar?: como-executar.md
+#  - Como Contribuir?: como-contribuir.md
+#  - Release Notes: release-notes.md
+
 
 
 
