@@ -106,5 +106,6 @@ FRONTEND\index.html
 ## Links Importantes
 
 * **Protótipo no Figma:** [Figma — GRUPO 12 — É-CRYPTO](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
+* **Link do GitPage:** [GitPage — GRUPO 12 — É-CRYPTO](https://unb-mds.github.io/2025-2-Squad12/)
 
 ---
