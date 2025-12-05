@@ -1,5 +1,5 @@
 // URL da API do backend
-const API_URL = "http://localhost:5000/data";
+const API_URL = "http://localhost:6800/";
 
 // Função principal chamada ao carregar a página
 async function loadNews() {
