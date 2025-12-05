@@ -7,14 +7,14 @@ theme:
   name: material
   language: pt-BR
 
-  # Ícones do tema (logo, repo, navegação etc.)
+
   icon:
     logo: material/currency-btc       
     repo: fontawesome/brands/github   
     previous: material/chevron-left   
     next: material/chevron-right      
 
-  # Features para deixar o site mais usável
+
   features:
     - navigation.tabs      
     - navigation.footer    
@@ -64,14 +64,14 @@ nav:
       - Sprint 10: Sprints/sprint-10.md
       - Sprint 11: Sprints/sprint-11.md
       - Sprint 12: Sprints/sprint-12.md
-
-
+      
    - Organização do Projeto:
-  #     - Arquitetura: arquitetura.md
-  #     - Storymap: storymap.md
+       - Storymap: storymap.md
        - Roadmap: roadmap.md
+       - Como Contribuir?: como-contribuir.md
+  #     - Arquitetura: arquitetura.md
   #     - Protótipo: prototipo.md
   #     - Como Executar?: como-executar.md
-       - Como Contribuir?: como-contribuir.md
   #     - Release Notes: release-notes.md
+
 
