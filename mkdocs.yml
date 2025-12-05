@@ -6,20 +6,50 @@ repo_url: https://github.com/unb-mds/2025-2-Squad12
 theme:
   name: material
   language: pt-BR
+
+  # Ícones do tema (logo, repo, navegação etc.)
+  icon:
+    logo: material/currency-btc       
+    repo: fontawesome/brands/github   
+    previous: material/chevron-left   
+    next: material/chevron-right      
+
+  # Features para deixar o site mais usável
+  features:
+    - navigation.tabs      
+    - navigation.footer    
+    - navigation.path      
+    - search.suggest       
+    - search.highlight     
+    - content.code.copy    
+
+ 
   palette:
-    - scheme: default        
-      primary: orange        
-      accent: deep orange    
-    - scheme: slate          
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange       
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Mudar para tema escuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: orange
       accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Mudar para tema claro
 
+
+plugins:
+  - search  
+
 nav:
   - Home: index.md
-  - Sprints: 
+
+  - Sprints:
       - Visão Geral: Sprints.md
       - Sprint 0: Sprints/sprint-00.md
       - Sprint 1: Sprints/sprint-01.md
@@ -34,17 +64,13 @@ nav:
       - Sprint 10: Sprints/sprint-10.md
       - Sprint 11: Sprints/sprint-11.md
       - Sprint 12: Sprints/sprint-12.md
- # - Organização do Projeto:
- #     - Arquitetura: arquitetura.md
- #     - Storymap: storymap.md
- #     - Roadmap: roadmap.md
- #     - Protótipo: prototipo.md
- # - Como Executar?: como-executar.md
-#  - Como Contribuir?: como-contribuir.md
-#  - Release Notes: release-notes.md
 
-
-
-
-
-
+  # Quando esses arquivos existirem, é só descomentar esse bloco:
+  # - Organização do Projeto:
+  #     - Arquitetura: arquitetura.md
+  #     - Storymap: storymap.md
+  #     - Roadmap: roadmap.md
+  #     - Protótipo: prototipo.md
+  #     - Como Executar?: como-executar.md
+  #     - Como Contribuir?: como-contribuir.md
+  #     - Release Notes: release-notes.md
