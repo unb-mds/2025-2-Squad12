@@ -69,10 +69,10 @@ nav:
       - Storymap: storymap.md
       - Roadmap: roadmap.md
       - Como Contribuir?: como-contribuir.md
-  #     - Arquitetura: arquitetura.md
-  #     - Protótipo: prototipo.md
-  #     - Como Executar?: como-executar.md
+      - Arquitetura: arquitetura.md
+      - Como Executar?: como-executar.md
   #     - Release Notes: release-notes.md
+
 
 
 
