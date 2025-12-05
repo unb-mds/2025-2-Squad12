@@ -1,9 +1,7 @@
 # Como você pode contribuir
 
-O **É Crypto** é um projeto desenvolvido na disciplina de Métodos de Desenvolvimento de Software (MDS) da UnB.  
 Você pode contribuir identificando possíveis erros na documentação, sugerindo novas funcionalidades ou realizando alterações no código e no scraping de dados.  
 
-Sua participação é fundamental para manter o projeto em funcionamento e em evolução constante.  
 Para isso, siga os passos abaixo.
 
 ---
