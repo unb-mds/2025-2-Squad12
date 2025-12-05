@@ -40,6 +40,20 @@ Esta seção existe apenas para registrar oficialmente essa mudança de escopo n
 
 ---
 
+## Como Rodar o Projeto
+
+Pré-Requisitos
+python 3.11+
+navegador
+
+Intalação do scrapy
+```bash
+pip install scrapy
+
+//depois de instalado, confira se correu tudo certo
+scrapy --version
+```
+
 ## Links Importantes
 
 * **Protótipo no Figma:** [Figma — GRUPO 12 — É-CRYPTO](https://www.figma.com/board/gPmz4LuhI7kQ9tcnGLQGlx/GRUPO-12---É-CRIPTO?node-id=0-1&p=f&t=3xEwZgVGTQQaDtm6-0)
