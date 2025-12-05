@@ -7,10 +7,10 @@ theme:
   name: material
   language: pt-BR
   palette:
-    - scheme: default        # tema claro
-      primary: orange        # barra / links em laranja
-      accent: deep orange    # destaques em laranja mais forte
-    - scheme: slate          # tema escuro (cinza bem escuro/preto)
+    - scheme: default        
+      primary: orange        
+      accent: deep orange    
+    - scheme: slate          
       primary: orange
       accent: deep orange
       toggle:
@@ -42,6 +42,7 @@ nav:
  # - Como Executar?: como-executar.md
 #  - Como Contribuir?: como-contribuir.md
 #  - Release Notes: release-notes.md
+
 
 
 
