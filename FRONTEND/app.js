@@ -1,6 +1,5 @@
-// app.js - Versão Simplificada e Funcional
 document.addEventListener('DOMContentLoaded', function() {
-    // Elementos DOM
+    
     const apiInput = document.getElementById('apiUrl');
     const refreshBtn = document.getElementById('refreshBtn');
     const sampleBtn = document.getElementById('sampleBtn');
@@ -8,26 +7,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const statusEl = document.getElementById('status');
     const newsGrid = document.getElementById('newsGrid');
     
-    // Configurações
-    const DEFAULT_URL = 'http://localhost:8000/noticias.json';
+    
+    const DEFAULT_URL = 'http://localhost:6000/noticias.json';
     apiInput.value = DEFAULT_URL;
     
-    // Event Listeners
+    
     refreshBtn.addEventListener('click', loadFromServer);
     sampleBtn.addEventListener('click', loadSampleData);
     loadFileBtn.addEventListener('click', loadFromFile);
     
-    // Tenta carregar automaticamente ao iniciar
+    
     setTimeout(() => {
         loadFromServer();
     }, 500);
     
-    // ========== FUNÇÕES PRINCIPAIS ==========
+    
     
     function setStatus(message, type = 'info') {
         statusEl.textContent = message;
         
-        // Cores baseadas no tipo
+        
         const colors = {
             info: '#2196f3',
             success: '#4caf50',
@@ -41,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(`Status: ${message}`);
     }
     
-    // 1. Carregar do servidor local
+    
     async function loadFromServer() {
         const url = apiInput.value.trim() || DEFAULT_URL;
         
@@ -62,33 +61,30 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             const data = await response.json();
-            setStatus(`✅ ${data.length || 0} notícias carregadas do servidor`, 'success');
+            setStatus(`${data.length || 0} notícias carregadas do servidor`, 'success');
             renderNews(data);
             
         } catch (error) {
             console.error('Erro ao carregar do servidor:', error);
-            setStatus(`❌ Erro: ${error.message}. Verifique se o servidor está rodando.`, 'error');
+            setStatus(`Erro: ${error.message}. Verifique se o servidor está rodando.`, 'error');
             
-            // Sugestão de solução
-            setTimeout(() => {
-                setStatus('💡 Dica: Execute no terminal: python -m http.server 8000', 'warning');
-            }, 2000);
+            
             
             newsGrid.innerHTML = `
                 <div class="empty">
                     <h3>Servidor não encontrado</h3>
                     <p>Para usar arquivos locais:</p>
                     <p>1. Abra o terminal nesta pasta</p>
-                    <p>2. Execute: <code>python -m http.server 8000</code></p>
+                    <p>2. Execute: <code>python -m http.server 6000</code></p>
                     <p>3. Clique em "Carregar Arquivo JSON" ou use dados de exemplo</p>
                 </div>
             `;
         }
     }
     
-    // 2. Carregar de arquivo local
+    
     function loadFromFile() {
-        // Cria um input de arquivo temporário
+        
         const fileInput = document.createElement('input');
         fileInput.type = 'file';
         fileInput.accept = '.json,application/json';
@@ -104,16 +100,16 @@ document.addEventListener('DOMContentLoaded', function() {
             reader.onload = function(e) {
                 try {
                     const data = JSON.parse(e.target.result);
-                    setStatus(`✅ ${data.length || 0} notícias carregadas de ${file.name}`, 'success');
+                    setStatus(`${data.length || 0} notícias carregadas de ${file.name}`, 'success');
                     renderNews(data);
                 } catch (error) {
-                    setStatus(`❌ Erro no arquivo JSON: ${error.message}`, 'error');
+                    setStatus(`Erro no arquivo JSON: ${error.message}`, 'error');
                     console.error('Erro no parse JSON:', error);
                 }
             };
             
             reader.onerror = function() {
-                setStatus('❌ Erro ao ler o arquivo', 'error');
+                setStatus('Erro ao ler o arquivo', 'error');
             };
             
             reader.readAsText(file);
@@ -122,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fileInput.click();
     }
     
-    // 3. Carregar dados de exemplo
+    
     function loadSampleData() {
         const sampleData = [
             {
@@ -171,12 +167,12 @@ document.addEventListener('DOMContentLoaded', function() {
         renderNews(sampleData);
     }
     
-    // 4. Renderizar notícias
+    
     function renderNews(data) {
-        // Limpa o grid
+        
         newsGrid.innerHTML = '';
         
-        // Processa os dados (suporta vários formatos)
+        
         let items = [];
         
         if (Array.isArray(data)) {
@@ -189,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (Array.isArray(data.noticias)) {
                 items = data.noticias;
             } else {
-                // Converte objeto chave-valor em array
+                
                 items = Object.entries(data).map(([key, value]) => ({
                     title: key,
                     description: typeof value === 'object' ? JSON.stringify(value) : String(value),
@@ -198,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         
-        // Verifica se há itens
+        
         if (items.length === 0) {
             newsGrid.innerHTML = `
                 <div class="empty">
@@ -210,12 +206,12 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // Renderiza cada item
+        
         items.forEach((item, index) => {
             const card = document.createElement('article');
             card.className = 'card';
             
-            // Imagem (opcional)
+            //se n tiver imagem ele só exclui o elemento
             const imageUrl = item.image || item.img || item.thumbnail || item.urlToImage;
             if (imageUrl) {
                 const img = document.createElement('img');
@@ -223,30 +219,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 img.alt = item.title || 'Imagem da notícia';
                 img.loading = 'lazy';
                 img.onerror = function() {
-                    // Se a imagem falhar ao carregar, remove o elemento
+                    
                     this.style.display = 'none';
                 };
                 card.appendChild(img);
             }
             
-            // Conteúdo do card
+            
             const contentDiv = document.createElement('div');
             contentDiv.className = 'card-content';
             
-            // Título
+            
             const title = document.createElement('h3');
             const titleText = item.title || item.headline || item.name || `Notícia ${index + 1}`;
             title.textContent = titleText.length > 100 ? titleText.substring(0, 100) + '...' : titleText;
             contentDiv.appendChild(title);
             
-            // Descrição
+            
             const description = document.createElement('p');
             const descText = item.resumo || item.summary || item.body || item.content || '';
             description.textContent = descText.length > 150 ? 
                 descText.substring(0, 150) + '...' : descText;
             contentDiv.appendChild(description);
             
-            // Metadados
+            
             const metaDiv = document.createElement('div');
             metaDiv.className = 'meta';
             
@@ -268,11 +264,6 @@ document.addEventListener('DOMContentLoaded', function() {
             newsGrid.appendChild(card);
         });
         
-        // Atualiza contagem no status
-        const currentStatus = statusEl.textContent;
-        if (currentStatus.includes('✅')) {
-            const baseMsg = currentStatus.split('✅')[0];
-            setStatus(`✅ ${items.length} notícias exibidas`, 'success');
-        }
+
     }
 });
