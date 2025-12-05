@@ -1,3 +1,5 @@
+import os
+from datetime import datetime
 # Scrapy settings for coindesk_scraper project
 #
 # For simplicity, this file contains only settings considered important or
@@ -33,9 +35,17 @@ ITEM_PIPELINES = {
     'coindesk_scraper.pipelines.CoindeskScraperPipeline': 300,
 }
 
-# Exportar para JSON
+# Criar pasta 'data' se não existir
+DATA_DIR = 'data'
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# Nome do arquivo com timestamp
+filename = f"{DATA_DIR}/noticias_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+
+# Configurar exportação
 FEED_FORMAT = 'json'
-FEED_URI = 'coindesk_news_%(time)s.json'
+FEED_URI = filename
+FEED_EXPORT_INDENT = 2
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

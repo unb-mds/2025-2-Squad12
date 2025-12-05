@@ -6,12 +6,12 @@ class CoindeskSpider(scrapy.Spider):
     name = 'coindesk'
     allowed_domains = ['coindesk.com']
 
-    # indentação da saida no .json
-    custom_settings = {
-        'FEED_EXPORT_INDENT': 2,  
-        'FEED_FORMAT': 'json',
-        'FEED_URI': 'primeira_noticia_%(time)s.json'
-    }
+#    # indentação da saida no .json
+#    custom_settings = {
+#        'FEED_EXPORT_INDENT': 2,  
+#        'FEED_FORMAT': 'json',
+#        'FEED_URI': 'primeira_noticia_%(time)s.json'
+#    }
     
     def start_requests(self):
         yield scrapy.Request(
