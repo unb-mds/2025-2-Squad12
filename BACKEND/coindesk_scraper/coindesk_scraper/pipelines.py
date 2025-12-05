@@ -7,7 +7,9 @@
 # useful for handling different item types with a single interface
 
 import json
+import os
 from itemadapter import ItemAdapter
+
 
 class CoindeskScraperPipeline:
     def process_item(self, item, spider):
@@ -21,3 +23,8 @@ class CoindeskScraperPipeline:
                 adapter[field_name] = None
         
         return item
+    
+
+
+
+
