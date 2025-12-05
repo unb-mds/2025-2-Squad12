@@ -20,7 +20,7 @@ theme:
 nav:
   - Home: index.md
   - Sprints: 
-      - Visão Geral: sprints.md
+      - Visão Geral: Sprints.md
       - Sprint 0: Sprints/sprint-00.md
       - Sprint 1: Sprints/sprint-01.md
       - Sprint 2: Sprints/sprint-02.md
@@ -42,6 +42,7 @@ nav:
   - Como Executar?: como-executar.md
   - Como Contribuir?: como-contribuir.md
   - Release Notes: release-notes.md
+
 
 
 
