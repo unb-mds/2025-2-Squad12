@@ -19,7 +19,20 @@ theme:
 
 nav:
   - Home: index.md
-  - Sprints: sprints.md
+  - Sprints: 
+      - Visão Geral: sprints.md
+      - Sprint 1: sprints/sprint1.md
+      - Sprint 2: sprints/sprint2.md
+      - Sprint 3: sprints/sprint3.md
+      - Sprint 4: sprints/sprint4.md
+      - Sprint 5: sprints/sprint5.md
+      - Sprint 6: sprints/sprint6.md
+      - Sprint 7: sprints/sprint7.md
+      - Sprint 8: sprints/sprint8.md
+      - Sprint 9: sprints/sprint9.md
+      - Sprint 10: sprints/sprint10.md
+      - Sprint 11: sprints/sprint11.md
+      - Sprint 12: sprints/sprint12.md
   - Organização do Projeto:
       - Arquitetura: arquitetura.md
       - Storymap: storymap.md
@@ -28,3 +41,4 @@ nav:
   - Como Executar?: como-executar.md
   - Como Contribuir?: como-contribuir.md
   - Release Notes: release-notes.md
+
